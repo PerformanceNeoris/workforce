@@ -22,19 +22,17 @@ class CVLoginPage:
         self.controlador = controlador
 
     def ingresar(self,controlador,usuario,clave):
-        #wait = WebDriverWait(self.controlador, 5)
-        # Ingresa Usuario
-        inputElement(self.controlador,self.userName,self.usuario)
+        print("usuario: " + usuario)
+        print("clave  : " + clave)
+        #wait = WebDriverWait(controlador, 5)
 
-     #   element = wait.until(EC.presence_of_element_located((By.NAME, self.userName)))
-     #   self.controlador.find_element_by_name(self.userName).send_keys(self.usuario)
+        # Ingresa Usuario
+        #inputElement(self.controlador,self.userName,self.usuario)
+
 
         # Ingresa Contraseeña
-        inputElement(self.controlador,self.password,self.clave)
-
-    #   element = wait.until(EC.presence_of_element_located((By.NAME, self.password)))
-     #   self.controlador.find_element_by_name(self.password).send_keys(self.clave)
+        # inputElement(self.controlador,self.password,self.clave)
 
         # Hace click en el botón Login
-        clickID(self.controlador,self.ingresar)
+        # clickID(self.controlador,self.ingresar)
 

@@ -3,7 +3,7 @@ __version__ = "1.0.0"
 __email__ = "martin.delpercio@neoris.com"
 
 import datetime
-from libreriaUtiles import screenShot
+from libreriaUtiles import screenShotWeb
 
 from selenium import webdriver
 from selenium.webdriver.support import expected_conditions as EC
@@ -20,7 +20,7 @@ driver.maximize_window()
 driver.implicitly_wait(1)
 wait = WebDriverWait(driver, 5)
 
-screenShot(driver,"Login")
+screenShotWeb(driver,"Login","Login")
 
 def selectElement(driver, nombre, valor):
     # Selecciona un Elemento
@@ -98,9 +98,9 @@ inputElement(driver, "outFlight", Keys.ARROW_DOWN)
 
 #flightName = driver.findElement(By.xpath("//div[contains(@class, 'data_left'"))
 
-flightName = driver.find_element_by_xpath("//input[@name='outFlight']").text()
+#flightName = driver.find_element_by_xpath("//input[@name='outFlight']").text()
 
-print (flightName)
+#print (flightName)
 
 #SALIDA
 driver.implicitly_wait(1)

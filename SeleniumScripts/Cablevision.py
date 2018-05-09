@@ -3,7 +3,7 @@ __version__ = "1.0.0"
 __email__ = "martin.delpercio@neoris.com", "mdelpercio@teco.com.ar"
 
 import datetime
-from CVGeneral import *
+from SeleniumScripts.CVGeneral import *
 from libreriaUtiles import screenShotWeb
 
 from selenium import webdriver
