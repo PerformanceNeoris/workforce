@@ -1,7 +1,15 @@
-
 import pyautogui
 import subprocess
 import time
+from libreriaUtiles import screenShotGUI
+
+__name__ = "Práctica Selenium GUI con Python"
+__version__ = '0.1'
+__author__ = "Martín Javier Del Percio"
+__email__ = "martin.delpercio@neoris.com, mdelpercio@teco.com.ar"
+__status__ = "Testing"
+caso = "WRACaso32"
+nombre = "Error"
 
 # Abre la Calculadora
 cmd = "C:/Windows/System32/calc.exe"
@@ -12,7 +20,6 @@ pyautogui.PAUSE = 0.00
 
 # Function <locateObject>
 # Verifica un objeto en la ventana esperando una cantidad de milisegundos
-
 def esperarCarga(ObjName, timeout):
     counter = 0
     myTime = 0
@@ -54,7 +61,7 @@ def validarValor(resultado):
 pyautogui.moveTo(5, 5)
 
 # Valida que esté abierta la Calculadora
-assert (esperarCarga("CALCULADORA",10000))
+assert (esperarCarga("CALCULADORA", 10000))
 
 # Borra el valor
 pulsarBoton("BOTON CE")
@@ -68,6 +75,9 @@ pulsarBoton("TRES")
 pulsarBoton("IGUAL")
 
 # Valida el Resultado esperado
-assert (esperarCarga("RESULTADO",10000))
+assert (esperarCarga("RESULTADO", 10000))
 
+screenShotGUI(caso, nombre)
+
+# Termina el proceso de la Calculadora
 process.kill()
