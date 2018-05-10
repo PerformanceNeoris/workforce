@@ -6,6 +6,7 @@ import datetime
 from libreriaUtiles import screenShotWeb
 from SeleniumScripts.CVGeneral import *
 from selenium import webdriver
+from SeleniumScripts.CVLoginPage import *
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
@@ -22,6 +23,7 @@ class CVMainPage:
     # Ingresa a la página de Login
     def clickIngresar(self):
         clickXPATH(self.controlador,self.botonIngresar)
+        self.controlador.get(self.controlador.current_url)
 
 
 

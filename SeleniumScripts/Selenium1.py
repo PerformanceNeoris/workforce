@@ -17,7 +17,7 @@ driver = webdriver.Chrome("C:\\Webdrivers\\chromedriver.exe")
 driver.set_page_load_timeout(10)
 driver.get("http://newtours.demoaut.com")
 driver.maximize_window()
-driver.implicitly_wait(1)
+driver.implicitly_wait(10)
 wait = WebDriverWait(driver, 5)
 
 screenShotWeb(driver,"Login","Login")
