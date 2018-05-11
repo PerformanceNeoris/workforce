@@ -127,9 +127,7 @@ pyautogui.moveTo(5, 505)
 time.sleep(1)
 pyautogui.click(5, 505,3)
 
-ObjName = "images\\VALIDALOG.PNG"
-SiExiste = pyautogui.locateOnScreen(ObjName)
-print (SiExiste)
+assert (esperarCarga("VALIDALOG", 10000))
 
 #screenShotGUI(caso, nombre)
 
