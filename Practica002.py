@@ -123,6 +123,10 @@ pyautogui.click(button7x, button7y)
 # Valida el Resultado esperado
 #assert (esperarCarga("VALIDA_LOGIN", 10000))
 
+pyautogui.moveTo(5, 505)
+time.sleep(1)
+pyautogui.click(5, 505,3)
+
 ObjName = "images\\VALIDALOG.PNG"
 SiExiste = pyautogui.locateOnScreen(ObjName)
 print (SiExiste)
