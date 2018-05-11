@@ -37,19 +37,15 @@ def esperarCarga(ObjName, timeout):
 # Verifica si existe un elemento en pantalla
 # Si existe, toma sus coordenadas y le hace click
 def pulsarBoton(objeto):
-    pyautogui.moveTo(10, 20)
-    time.sleep(15)
-    ObjName = "images\\" + objeto + '.PNG'
+    ObjName = "images\\" + objeto + ".PNG"
     SiExiste = pyautogui.locateOnScreen(ObjName)
     button7x, button7y = pyautogui.center(SiExiste)
     pyautogui.click(button7x, button7y)
-    pyautogui.moveTo(10, 20)
-    return
 
 # Funcion <validarValor>
 # Verifica si existe una imagen en pantalla
 def validarValor(resultado):
-    ObjName = "images\\" + resultado + '.PNG'
+    ObjName = "images\\" + resultado + ".PNG"
     SiExiste = pyautogui.locateOnScreen(ObjName)
     if (SiExiste == None):
         resultado = False
@@ -61,7 +57,6 @@ def validarValor(resultado):
 pyautogui.moveTo(5, 5)
 
 # Abre la página
-
 global URL
 URL="http://www.cablevisionfibertel.com.ar"
 driver = webdriver.Chrome('C:\\Webdrivers\\chromedriver.exe')
@@ -72,29 +67,67 @@ time.sleep(5)
 driver.maximize_window()
 wait = WebDriverWait(driver, 5)
 
-pyautogui.moveTo(50, 50)
-pyautogui.click(50, 50)
+pyautogui.moveTo(5, 505)
+time.sleep(1)
+pyautogui.click(5, 505,3)
 
 # Valida que esté abierta la página principal
 assert (esperarCarga("MAINPAGE", 10000))
 
 assert (esperarCarga("INGRESAR", 10000))
 
+ObjName = "images\\INGRESAR.PNG"
+SiExiste = pyautogui.locateOnScreen(ObjName)
+button7x, button7y = pyautogui.center(SiExiste)
+pyautogui.click(button7x, button7y)
+
 # Borra el valor
-pulsarBoton("INGRESAR")
+#pulsarBoton("INGRESAR")
+
+pyautogui.moveTo(5, 505)
+time.sleep(1)
+pyautogui.click(5, 505,3)
 
 # Valida que esté abierta la página Login
 assert (esperarCarga("LOGINPAGE", 10000))
 
+pyautogui.moveTo(5, 505)
+time.sleep(1)
+pyautogui.click(5, 505,3)
+
 # Realizza la operación LOGIN
 pulsarBoton("USUARIO")
+
+pyautogui.typewrite("martinjavierd")
+pyautogui.keyDown('altright')
+pyautogui.keyDown('q')
+pyautogui.keyUp('altright')
+pyautogui.keyUp('q')
+pyautogui.typewrite("gmail.com")
+
 pulsarBoton("CLAVE")
-pulsarBoton("BOTON_INGRESAR")
+
+pyautogui.typewrite("CrudSec2")
+
+pyautogui.moveTo(5, 505)
+time.sleep(1)
+pyautogui.click(5, 505,3)
+
+#pulsarBoton("BTNLOGIN")
+
+ObjName = "images\\BTNLOGIN.PNG"
+SiExiste = pyautogui.locateOnScreen(ObjName)
+button7x, button7y = pyautogui.center(SiExiste)
+pyautogui.click(button7x, button7y)
 
 # Valida el Resultado esperado
-assert (esperarCarga("VALIDA_LOGIN", 10000))
+#assert (esperarCarga("VALIDA_LOGIN", 10000))
 
-screenShotGUI(caso, nombre)
+ObjName = "images\\VALIDALOG.PNG"
+SiExiste = pyautogui.locateOnScreen(ObjName)
+print (SiExiste)
+
+#screenShotGUI(caso, nombre)
 
 # Termina el proceso
 driver.close()
