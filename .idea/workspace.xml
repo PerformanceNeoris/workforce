@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e1be441-633d-4a6a-85c9-f082180e590f" name="Default" comment="">
+    <list default="true" id="2e1be441-633d-4a6a-85c9-f082180e590f" name="Default" comment="PyAutoGUI a una página web&#10;Versión funcionando">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica002.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practica002.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/BOTON_LOGIN.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/BOTON_LOGIN.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Clave.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/Clave.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Ingresar.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/Ingresar.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Usuario.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/Usuario.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/VALIDA_LOGIN.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/VALIDALOG.PNG" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -81,10 +75,12 @@
       <file leaf-file-name="Practica002.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Practica002.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+            <state relative-caret-position="184">
+              <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
+                <element signature="e#572#863#0" />
+                <element signature="e#1013#1192#0" />
                 <element signature="e#1384#1583#0" />
               </folding>
             </state>
@@ -468,7 +464,21 @@
       <option name="project" value="LOCAL" />
       <updated>1526048543776</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="PyAutoGUI a una página web&#10;Versión funcionando">
+      <created>1526062805126</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1526062805126</updated>
+    </task>
+    <task id="LOCAL-00022" summary="PyAutoGUI a una página web&#10;Versión funcionando">
+      <created>1526063225629</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1526063225629</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -489,12 +499,12 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24304539" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24304539" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.34094617" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32952693" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32952693" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -530,7 +540,8 @@
     <MESSAGE value="Aplicando Page Objects" />
     <MESSAGE value="PyAutoGUI a una página web" />
     <MESSAGE value="PyAutoGUI a una página web&#10;Ultima versión" />
-    <option name="LAST_COMMIT_MESSAGE" value="PyAutoGUI a una página web&#10;Ultima versión" />
+    <MESSAGE value="PyAutoGUI a una página web&#10;Versión funcionando" />
+    <option name="LAST_COMMIT_MESSAGE" value="PyAutoGUI a una página web&#10;Versión funcionando" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -894,10 +905,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Practica002.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+        <state relative-caret-position="184">
+          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
+            <element signature="e#572#863#0" />
+            <element signature="e#1013#1192#0" />
             <element signature="e#1384#1583#0" />
           </folding>
         </state>
