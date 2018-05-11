@@ -21,18 +21,12 @@ class CVLoginPage:
     password = "password"
     ingresar = "ingresar-button"
     controlador = webdriver
-    botonIngresar = "//*[@id='ingresar']"
 
     def __init__(self,controlador):
         self.controlador = controlador
-        self.controlador.get(self.controlador.current_url)
 
     def ingresar(self,usuario,clave):
         wait = WebDriverWait(self.controlador, 15)
-
-        #clickXPATH(self.controlador, self.botonIngresar)
-
-        self.controlador.get(self.controlador.current_url)
 
         # Ingresa Usuario
         element = wait.until(EC.presence_of_element_located((By.XPATH, "//*[@id='username']")))

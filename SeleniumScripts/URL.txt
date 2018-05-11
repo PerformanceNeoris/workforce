@@ -1,0 +1,1 @@
+https://auth.cablevision.com.ar/saml/authenticationendpoint/login.do?sessionDataKey=7c0f0dec-94dd-4ede-9856-77151907aeb1&relyingParty=CablevisionDigital&type=samlsso&sp=CablevisionDigital&isSaaSApp=false&authenticators=BasicAuthenticator:LOCAL#
