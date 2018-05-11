@@ -23,9 +23,6 @@ class CVMainPage:
     # Ingresa a la página de Login
     def clickIngresar(self):
         clickXPATH(self.controlador,self.botonIngresar)
-        file = open("URL.txt", "w")
-        file.write(self.controlador.current_url)
-        file.close()
 
 
 
