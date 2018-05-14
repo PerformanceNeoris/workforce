@@ -1,8 +1,13 @@
 import pyautogui
 import time
+import xlrd
+from selenium.webdriver.support import expected_conditions as EC
 from libreriaUtiles import screenShotGUI
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import Select
+from selenium.webdriver.common.keys import Keys
 
 __name__ = "Práctica Selenium GUI con Python"
 __version__ = '0.1'
@@ -12,9 +17,46 @@ __status__ = "Testing"
 
 caso = "WRACaso32"
 nombre = "Error"
+usuario = ""
+proveedor = ""
+clave = ""
+webpage = ""
 
 # Pausa de rigor
 pyautogui.PAUSE = 1.00
+
+def clickID(driver, nombre):
+    element = wait.until(EC.presence_of_element_located((By.ID, nombre)))
+    driver.find_element_by_id(nombre).click()
+
+# Carga los parámetross de un EXCEL determinado
+def open_file(path, registro):
+
+    book = xlrd.open_workbook(path)
+
+    # get the first worksheet
+    first_sheet = book.sheet_by_index(0)
+
+    # read a row
+    print (first_sheet.row_values(0))
+
+    cell = first_sheet.cell(registro, 0)
+    usuario = (cell.value)
+    print ("Usuario: " + usuario)
+
+    cell = first_sheet.cell(registro, 1)
+    proveedor = (cell.value)
+    print ("Proveedor: " + proveedor)
+
+    cell = first_sheet.cell(registro, 2)
+    clave = (cell.value)
+    print("Clave: " + clave)
+
+    cell = first_sheet.cell(registro, 3)
+    webpage = (cell.value)
+    print("Webpage: " + webpage)
+
+    book.release_resources()
 
 # Function <locateObject>
 # Verifica un objeto en la ventana esperando una cantidad de milisegundos
@@ -53,6 +95,16 @@ def validarValor(resultado):
         resultado = True
     return resultado
 
+def insertarMail(usuario,proveedor):
+    pulsarBoton("USUARIO")
+    pyautogui.typewrite(usuario)
+    pyautogui.keyDown('altright')
+    pyautogui.keyDown('q')
+    pyautogui.keyUp('altright')
+    pyautogui.keyUp('q')
+    pyautogui.typewrite(proveedor)
+    pyautogui.typewrite(".com")
+
 # Posiciona el cursor en el ángulo superior izquierdo
 pyautogui.moveTo(5, 5)
 
@@ -66,6 +118,7 @@ print(driver.title)
 time.sleep(5)
 driver.maximize_window()
 wait = WebDriverWait(driver, 5)
+open_file("params\\PARAMS.xlsx",1)
 
 pyautogui.moveTo(5, 505)
 time.sleep(1)
@@ -76,13 +129,14 @@ assert (esperarCarga("MAINPAGE", 10000))
 
 assert (esperarCarga("INGRESAR", 10000))
 
+'''''
 ObjName = "images\\INGRESAR.PNG"
 SiExiste = pyautogui.locateOnScreen(ObjName)
 button7x, button7y = pyautogui.center(SiExiste)
 pyautogui.click(button7x, button7y)
+'''''
 
-# Borra el valor
-#pulsarBoton("INGRESAR")
+pulsarBoton("INGRESAR")
 
 pyautogui.moveTo(5, 505)
 time.sleep(1)
@@ -94,6 +148,27 @@ assert (esperarCarga("LOGINPAGE", 10000))
 pyautogui.moveTo(5, 505)
 time.sleep(1)
 pyautogui.click(5, 505,3)
+
+# Ingresa Usuario
+
+'''''
+pulsarBoton("USUARIO")
+
+email = usuario + "@" + proveedor
+element = wait.until(EC.presence_of_element_located((By.NAME, email)))
+driver.find_element_by_name("userName").send_keys(usuario)
+
+pulsarBoton("CLAVE")
+
+# Ingresa Contraseeña
+element = wait.until(EC.presence_of_element_located((By.NAME, clave)))
+driver.find_element_by_name("password").send_keys(clave)
+
+# Hace click en el botón Login
+clickID(driver,"ingresar-button")
+
+insertarMail("martinjavierd","gmail")
+'''''
 
 # Realizza la operación LOGIN
 pulsarBoton("USUARIO")
@@ -107,21 +182,17 @@ pyautogui.typewrite("gmail.com")
 
 pulsarBoton("CLAVE")
 
+time.sleep(1)
+
 pyautogui.typewrite("CrudSec2")
 
 pyautogui.moveTo(5, 505)
 time.sleep(1)
 pyautogui.click(5, 505,3)
 
-#pulsarBoton("BTNLOGIN")
-
-ObjName = "images\\BTNLOGIN.PNG"
-SiExiste = pyautogui.locateOnScreen(ObjName)
-button7x, button7y = pyautogui.center(SiExiste)
-pyautogui.click(button7x, button7y)
+pulsarBoton("BTNLOGIN")
 
 # Valida el Resultado esperado
-#assert (esperarCarga("VALIDA_LOGIN", 10000))
 
 pyautogui.moveTo(5, 505)
 time.sleep(1)
