@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e1be441-633d-4a6a-85c9-f082180e590f" name="Default" comment="PyAutoGUI a una página web&#10;Versión funcionando">
+    <list default="true" id="2e1be441-633d-4a6a-85c9-f082180e590f" name="Default" comment="Se hace el Login utilizando la librería PyAutoGUI">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,89 +13,58 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CVLoginPage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SeleniumScripts/CVLoginPage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-              <folding>
-                <element signature="e#80#95#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CVGeneral.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SeleniumScripts/CVGeneral.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-              <folding>
-                <element signature="e#81#111#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CVMainPage_Test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SeleniumScripts/CVMainPage_Test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="12" column="6" selection-start-line="11" selection-end-line="20" selection-end-column="31" />
-              <folding>
-                <element signature="e#80#91#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Selenium1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SeleniumScripts/Selenium1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Practica001.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Practica001.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-366">
-              <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-                <element signature="e#1085#1304#0" />
-                <element signature="e#1408#1607#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Practica002.py" pinned="false" current-in-tab="true">
+    <leaf>
+      <file leaf-file-name="Practica002.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Practica002.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+            <state relative-caret-position="118">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
+                <element signature="e#580#1151#0" />
                 <element signature="e#572#863#0" />
                 <element signature="e#1013#1192#0" />
-                <element signature="e#1384#1583#0" />
+                <element signature="e#1296#1495#0" />
+                <element signature="e#2287#2530#0" />
+                <element signature="e#3470#3643#1" />
+                <element signature="e#3906#4386#1" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CVMainPage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SeleniumScripts/CVMainPage.py">
+      <file leaf-file-name="Practica_Excel.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Practica_Excel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="21" />
-              <folding>
-                <element signature="e#80#95#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="110">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cablevision.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SeleniumScripts/Cablevision.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-end-line="13" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExcelLib.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExcelLib.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="2" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -113,6 +83,7 @@
       <find>screenShot</find>
       <find>drier</find>
       <find>selectElement</find>
+      <find>clickID</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -135,10 +106,11 @@
         <option value="$PROJECT_DIR$/SeleniumScripts/CVLogin_Page.py" />
         <option value="$PROJECT_DIR$/SeleniumScripts/Cablevision.py" />
         <option value="$PROJECT_DIR$/SeleniumScripts/Selenium1.py" />
-        <option value="$PROJECT_DIR$/SeleniumScripts/CVMainPage.py" />
         <option value="$PROJECT_DIR$/SeleniumScripts/CVLoginPage.py" />
+        <option value="$PROJECT_DIR$/SeleniumScripts/CVMainPage.py" />
         <option value="$PROJECT_DIR$/SeleniumScripts/CVMainPage_Test.py" />
         <option value="$PROJECT_DIR$/Practica002.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -478,7 +450,49 @@
       <option name="project" value="LOCAL" />
       <updated>1526063225629</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="PyAutoGUI a una página web&#10;Versión funcionando">
+      <created>1526063506102</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1526063506102</updated>
+    </task>
+    <task id="LOCAL-00024" summary="PyAutoGUI a una página web&#10;Versión funcionando con Assert">
+      <created>1526065745346</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1526065745347</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Nueva versión sin usar archivos o variables globales">
+      <created>1526070368972</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1526070368972</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Nueva versión sin usar archivos o variables globales">
+      <created>1526070385700</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1526070385700</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Se hace el Login utilizando la librería PyAutoGUI">
+      <created>1526307698055</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1526307698055</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Archivo de parámetros">
+      <created>1526307748416</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1526307748416</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -541,11 +555,15 @@
     <MESSAGE value="PyAutoGUI a una página web" />
     <MESSAGE value="PyAutoGUI a una página web&#10;Ultima versión" />
     <MESSAGE value="PyAutoGUI a una página web&#10;Versión funcionando" />
-    <option name="LAST_COMMIT_MESSAGE" value="PyAutoGUI a una página web&#10;Versión funcionando" />
+    <MESSAGE value="PyAutoGUI a una página web&#10;Versión funcionando con Assert" />
+    <MESSAGE value="Nueva versión sin usar archivos o variables globales" />
+    <MESSAGE value="Se hace el Login utilizando la librería PyAutoGUI" />
+    <MESSAGE value="Archivo de parámetros" />
+    <option name="LAST_COMMIT_MESSAGE" value="Archivo de parámetros" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="22" />
+      <option name="time" value="23" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -553,11 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
           <caret line="54" column="25" lean-forward="true" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-            <element signature="e#1085#1304#0" />
-            <element signature="e#1408#1607#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -624,24 +637,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExcelLib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/Selenium_Reusable_Actions/Reusable_Actions/LogInOut/LogAbo/LogAbo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-728">
           <caret line="141" lean-forward="true" selection-start-line="141" selection-end-line="141" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Practica_Excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -792,13 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SeleniumScripts/Cablevision.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/SALIDA/page-object-python-selenium-master/locators.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-22">
@@ -832,43 +824,17 @@
         <state relative-caret-position="-132" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SeleniumScripts/CVGeneral.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-          <folding>
-            <element signature="e#81#111#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SeleniumScripts/CVMainPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="21" />
-          <folding>
-            <element signature="e#80#95#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SeleniumScripts/CVLoginPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#80#95#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SeleniumScripts/CVMainPage_Test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="12" column="6" selection-start-line="11" selection-end-line="20" selection-end-column="31" />
-          <folding>
-            <element signature="e#80#91#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumScripts/CVGeneral.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -879,40 +845,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/CLAVE.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/USUARIO.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Practica001.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-366">
           <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumScripts/CVMainPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExcelLib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumScripts/CVLoginPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumScripts/Cablevision.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-end-line="13" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practica002.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
-            <element signature="e#1085#1304#0" />
-            <element signature="e#1408#1607#0" />
+            <element signature="e#580#1151#0" />
+            <element signature="e#572#863#0" />
+            <element signature="e#1013#1192#0" />
+            <element signature="e#1296#1495#0" />
+            <element signature="e#2287#2530#0" />
+            <element signature="e#3470#3643#1" />
+            <element signature="e#3906#4386#1" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/BOTON_LOGIN.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/VALIDALOG.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Practica002.py">
+    <entry file="file://$PROJECT_DIR$/Practica_Excel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-            <element signature="e#572#863#0" />
-            <element signature="e#1013#1192#0" />
-            <element signature="e#1384#1583#0" />
-          </folding>
+        <state relative-caret-position="110">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
         </state>
       </provider>
     </entry>
